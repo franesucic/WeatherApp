@@ -1,0 +1,76 @@
+.city-body {
+    min-height: 65vh;
+    background-image: linear-gradient(to top, rgb(145, 183, 247), white);
+    border-bottom: 1px solid black;
+}
+
+.city-label2 {
+    margin: 2vh 1vw 2vh 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    height: 10vh;
+    border: 1px solid black;
+    font-size: xx-large;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 10vw;
+}
+
+.city-label2 > span {
+    font-size: 4vh;
+    font-weight: 800;
+}
+
+.arrays {
+    width: 70vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.arrays span {
+    border: 2px solid antiquewhite;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.arrays span:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.graph-container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    column-gap: 50px;
+}
+
+.table-container {
+    min-height: 30vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: antiquewhite;
+}
+
+td {
+    width: 15vw;
+    height: 5vh;
+    font-size: xx-large;
+    border-bottom: 1px solid black;
+}
+
+.graph {
+    width: 800px;
+    height: 500px;
+}
